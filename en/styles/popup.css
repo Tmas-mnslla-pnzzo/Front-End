@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline; 
+    background: #fbf1f9;
+    line-height: 2em; 
+    font-family: "Arimo", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Vercetti-Regular";
+    font-size: 15px;
+    color:#333;
+    
+}
+
+#text1 {
+    height: 2px;
+    font-size: 20px;
+    
+}
+
+h6 {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 50px;
+    font: inherit;
+    
+}
+
+a {
+    color:#222; 
+    text-decoration: none; 
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+}
+ 
+label {
+    cursor: pointer;
+}
+
+a:hover, a:focus { 
+    color: rgb(52, 81, 250);
+}
+
+
+
+.top {
+    float: right;
+}
+
+.items {
+    float: right;
+}
+
+.mi_nombre {
+    float: left;
+    width: 1000px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.referencias {
+    float: left;
+    align-items: baseline;
+    padding-top: 15px;
+    float: right;
+    font: inherit;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.bandera {
+    float: right;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+
+
+
+h3{
+    padding-left: 90px;
+    font: inherit;
+    font-size: 40px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+    max-width: 100%;
+    height: 100%;
+}
+
+footer {
+    font: inherit;
+    position: absolute;
+    padding-left: 600px;
+    bottom: 100;
+}
+
+.pared {
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.pared_pinturas {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pared_pinturas img{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(0, 0, 0, 0);
+    transition: transform 0.3s, filter 0.5s;    
+    background-color: #ffffff;
+}
+
+.imagenes {
+    box-sizing: content-box;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    background-color: #ffffff;
+}
+
+.imagenes:hover img {
+    filter: opacity(80%);
+    transform: scale(1.01);
+}
+  
+.imgenes:hover {
+    cursor: pointer;
+}
+
+
+.marco {
+    height: 300px;
+    width: 230px;}
+
+
+h5 {
+    font-size: 15px;
+    font: inherit;
+}
+
+h1{
+    color: rgb(5, 5, 133);
+    font: inherit;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+#menu2{
+    display: none;
+}
+
+.container-login{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    padding-top: 100px;
+    padding-left: 450px;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 100%;
+    top: 0;left: 0;
+    transition: all 200ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#menu2:checked ~ .container-login{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lab2{
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+
+.screen{
+    width: 100%;
+    max-width: 400px;
+    background: #fbf1f9;
+    height: 340px;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateY(-100%);
+}
+
+#menu2:checked ~ .container-login .screen{
+    transform: translateX(0%);
+}
+ 
+.screen div{
+    transform: translateY(15%);
+}
+
+.screen div a{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: all 100ms ease;
+}
+
+.screen body{
+    overflow: hidden;
+}
+
+.screen div a:hover{
+    color: rgb(52, 81, 250);
+}
+
+.screen label{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+
+

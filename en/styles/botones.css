@@ -1,0 +1,167 @@
+
+
+.botones {
+    position: relative;
+    top: 65px;
+    transform: translateY(-100%);
+}
+
+.botones div{
+    transform: translateY(15%);
+}
+
+.boton1 {
+    padding-left: 50px;
+    float: left;
+}
+
+.boton2 {
+    padding-right: 50px;
+    float: right;
+    
+}
+
+
+#svg1 {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    height: 25px;
+    filter: invert(19%) sepia(36%) saturate(6959%) hue-rotate(345deg) brightness(100%) contrast(128%);
+}
+
+.alert {
+    height: 10px;
+}
+
+#alert{
+    position: relative;
+    left: 34px;
+    height: 20px;
+    color: crimson;
+}
+
+button {
+    font: inherit;
+    border-radius: 40px;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    width: 120px;
+	height: 30px;
+    border: 2px solid #000;
+    cursor: pointer
+    
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #000;
+}
+
+#boxer {
+    height: 30px;
+}
+
+
+
+
+
+#text1 {
+    position: relative;
+    font: inherit;
+    font-size: 20px;
+    top: 0px;
+    left: 30px;
+}
+
+
+#text2 {
+    position: relative;
+    top: 25px;
+    padding-left: 30px;
+    font: inherit;
+    font-size: 15px;
+    left: 0px;
+}
+
+
+#text3 {
+    position: relative;
+    font: inherit;
+    font-size: 15px;
+    top: 25px;
+    padding-left: 247px;
+}
+
+
+#div3 {
+    position: relative;
+    top: 6px;
+    display: none;
+}
+
+
+
+
+
+
+input[type="text"] {
+    background-color:  #fbf1f9;
+}
+
+input[type="password"] {
+    background-color:  #fbf1f9;
+}
+
+.input {
+    position: relative;
+}
+
+.inputs{
+    width:330px ;
+    padding-left: 30px;
+}
+
+.inputs .input{
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+
+.inputs .input input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+
+.inputs .input input:focus{
+    border-color: rgb(5, 5, 133);
+}
+
+.inputs .input label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+
+.inputs .input input:focus ~ label,
+.inputs .input input:valid ~ label{
+    transform: translateY(-2px);
+    color: crimson;
+}
+
+a.palabras {
+    position: absolute;
+}
